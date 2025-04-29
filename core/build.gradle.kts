@@ -1,10 +1,10 @@
 plugins {
     id("com.android.library")
-    alias(libs.plugins.jetbrains.kotlin.android)
-    alias(libs.plugins.compose.compiler)
     id("com.google.devtools.ksp") version "2.1.0-1.0.29"
-}
+    alias(libs.plugins.compose.compiler)
+    alias(libs.plugins.jetbrains.kotlin.android)
 
+}
 android {
     namespace = "com.qzwx.core"
     compileSdk = 35
