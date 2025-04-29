@@ -1,3 +1,7 @@
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -26,6 +30,21 @@ android {
                 "proguard-rules.pro"
             )
         }
+        //自定义打包apk名称
+ applicationVariants.all {
+        val variant = this
+        variant.outputs.map { it as com.android.build.gradle.internal.api.BaseVariantOutputImpl }
+            .forEach { output ->
+                val outputFileName =
+                    "QCheckIn${variant.versionName}_${
+                        SimpleDateFormat(
+                            "MMdd",
+                            Locale.getDefault()
+                        ).format(Date())
+                    }.apk"
+                output.outputFileName = outputFileName
+            }
+    }
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
@@ -40,6 +59,7 @@ android {
 }
 
 dependencies {
+    implementation ("com.google.accompanist:accompanist-systemuicontroller:0.30.1")  //修改系统状态栏
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
