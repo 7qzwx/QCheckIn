@@ -1,4 +1,4 @@
-package com.qzwx.feature_qiandaosystem.ui
+package com.qzwx.qcheckin.ui
 
 import android.os.Build
 import android.widget.Toast
@@ -38,10 +38,10 @@ import androidx.compose.ui.window.DialogProperties
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
 import com.qzwx.core.ui.BezierShapes
-import com.qzwx.feature_qiandaosystem.data.CheckIn
-import com.qzwx.feature_qiandaosystem.data.CheckInRepository
-import com.qzwx.feature_qiandaosystem.viewmodel.CheckInViewModel
-import com.qzwx.feature_qiandaosystem.viewmodel.CheckInViewModelFactory
+import com.qzwx.qcheckin.data.CheckIn
+import com.qzwx.qcheckin.data.CheckInRepository
+import com.qzwx.qcheckin.viewmodel.CheckInViewModel
+import com.qzwx.qcheckin.viewmodel.CheckInViewModelFactory
 import kotlinx.coroutines.launch
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter

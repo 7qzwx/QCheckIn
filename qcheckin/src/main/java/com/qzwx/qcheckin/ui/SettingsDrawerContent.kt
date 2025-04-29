@@ -1,4 +1,4 @@
-package com.qzwx.feature_qiandaosystem.ui
+package com.qzwx.qcheckin.ui
 
 import android.os.Build
 import androidx.annotation.RequiresApi

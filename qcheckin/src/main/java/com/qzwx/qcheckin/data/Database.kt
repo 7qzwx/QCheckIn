@@ -1,4 +1,4 @@
-package com.qzwx.feature_qiandaosystem.data
+package com.qzwx.qcheckin.data
 
 import android.content.ContentResolver
 import android.content.ContentUris

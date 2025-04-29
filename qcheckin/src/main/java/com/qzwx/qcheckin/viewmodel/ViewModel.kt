@@ -1,4 +1,4 @@
-package com.qzwx.feature_qiandaosystem.viewmodel
+package com.qzwx.qcheckin.viewmodel
 
 import android.content.Context
 import android.net.Uri
@@ -6,10 +6,10 @@ import androidx.activity.compose.ManagedActivityResultLauncher
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import com.qzwx.feature_qiandaosystem.data.CheckIn
-import com.qzwx.feature_qiandaosystem.data.CheckInHistory
-import com.qzwx.feature_qiandaosystem.data.CheckInRepository
-import com.qzwx.feature_qiandaosystem.data.QZXTDatabase
+import com.qzwx.qcheckin.data.CheckIn
+import com.qzwx.qcheckin.data.CheckInHistory
+import com.qzwx.qcheckin.data.CheckInRepository
+import com.qzwx.qcheckin.data.QZXTDatabase
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow

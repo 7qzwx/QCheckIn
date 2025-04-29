@@ -1,11 +1,11 @@
-package com.qzwx.feature_qiandaosystem.ui
+package com.qzwx.qcheckin.ui
 
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import com.qzwx.core.components.calendar.ActivityCalendar
 import com.qzwx.core.components.calendar.ActivityRecord
 import com.qzwx.core.components.calendar.CalendarDataProvider
-import com.qzwx.feature_qiandaosystem.viewmodel.CheckInViewModel
+import com.qzwx.qcheckin.viewmodel.CheckInViewModel
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import java.time.LocalDate

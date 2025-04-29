@@ -1,9 +1,8 @@
-package com.qzwx.feature_qiandaosystem.data
+package com.qzwx.qcheckin.data
 
 import androidx.annotation.Keep
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import java.time.LocalDate
 
 @Keep
 @Entity(tableName = "CheckIn")

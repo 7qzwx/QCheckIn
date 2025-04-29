@@ -1,4 +1,4 @@
-package com.qzwx.feature_qiandaosystem
+package com.qzwx.qcheckin
 
 import org.junit.Test
 import org.junit.Assert.*

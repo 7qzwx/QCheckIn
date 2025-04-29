@@ -1,4 +1,4 @@
-package com.qzwx.feature_qiandaosystem.data
+package com.qzwx.qcheckin.data
 
 import androidx.room.Dao
 import androidx.room.Insert

@@ -1,4 +1,4 @@
-package com.qzwx.feature_qiandaosystem.ui
+package com.qzwx.qcheckin.ui
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -20,10 +20,10 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.breens.beetablescompose.BeeTablesCompose
-import com.qzwx.feature_qiandaosystem.data.CheckInHistory
-import com.qzwx.feature_qiandaosystem.data.CheckInRepository
-import com.qzwx.feature_qiandaosystem.viewmodel.CheckInViewModel
-import com.qzwx.feature_qiandaosystem.viewmodel.CheckInViewModelFactory
+import com.qzwx.qcheckin.data.CheckInHistory
+import com.qzwx.qcheckin.data.CheckInRepository
+import com.qzwx.qcheckin.viewmodel.CheckInViewModel
+import com.qzwx.qcheckin.viewmodel.CheckInViewModelFactory
 /** 历史记录页面,用户点击页面的历史按钮会跳转到该页面   */
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter

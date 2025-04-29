@@ -1,6 +1,4 @@
-package com.qzwx.feature_qiandaosystem.data
-
-import android.R.attr.name
+package com.qzwx.qcheckin.data
 
 val defaultWords = listOf(
     CheckIn( name = "签到"),

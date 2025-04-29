@@ -1,4 +1,4 @@
-package com.qzwx.feature_qiandaosystem.ui
+package com.qzwx.qcheckin.ui
 
 import android.widget.Toast
 import androidx.activity.compose.rememberLauncherForActivityResult
@@ -15,7 +15,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.qzwx.feature_qiandaosystem.viewmodel.CheckInViewModel
+import com.qzwx.qcheckin.viewmodel.CheckInViewModel
 import me.nikhilchaudhari.library.neumorphic
 import me.nikhilchaudhari.library.shapes.Pressed
 import me.nikhilchaudhari.library.shapes.Punched

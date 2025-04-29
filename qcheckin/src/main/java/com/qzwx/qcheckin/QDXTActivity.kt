@@ -1,4 +1,4 @@
-package com.qzwx.feature_qiandaosystem
+package com.qzwx.qcheckin
 
 import android.os.Build
 import android.os.Bundle
@@ -7,12 +7,12 @@ import androidx.activity.compose.setContent
 import androidx.annotation.RequiresApi
 import androidx.navigation.compose.rememberNavController
 import com.qzwx.core.theme.QZWX_AppTheme
-import com.qzwx.feature_qiandaosystem.data.CheckInDao
-import com.qzwx.feature_qiandaosystem.data.CheckInRepository
-import com.qzwx.feature_qiandaosystem.data.CheckInRepositoryImpl
-import com.qzwx.feature_qiandaosystem.data.QZXTDatabase
-import com.qzwx.feature_qiandaosystem.navigation.NavGraph
-import com.qzwx.feature_qiandaosystem.viewmodel.CheckInViewModel
+import com.qzwx.qcheckin.data.CheckInDao
+import com.qzwx.qcheckin.data.CheckInRepository
+import com.qzwx.qcheckin.data.CheckInRepositoryImpl
+import com.qzwx.qcheckin.data.QZXTDatabase
+import com.qzwx.qcheckin.navigation.NavGraph
+import com.qzwx.qcheckin.viewmodel.CheckInViewModel
 
 class QDXTActivity : ComponentActivity() {
     private lateinit var checkInRepository : CheckInRepository

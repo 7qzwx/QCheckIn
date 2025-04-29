@@ -1,4 +1,4 @@
-package com.qzwx.feature_qiandaosystem.navigation
+package com.qzwx.qcheckin.navigation
 
 import android.os.Build
 import androidx.annotation.RequiresApi
@@ -8,12 +8,12 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.qzwx.feature_qiandaosystem.data.CheckInRepository
-import com.qzwx.feature_qiandaosystem.ui.BackUpScreen
-import com.qzwx.feature_qiandaosystem.ui.CalendarScreen
-import com.qzwx.feature_qiandaosystem.ui.CheckInScreen
-import com.qzwx.feature_qiandaosystem.ui.HistoryScreen
-import com.qzwx.feature_qiandaosystem.viewmodel.CheckInViewModel
+import com.qzwx.qcheckin.data.CheckInRepository
+import com.qzwx.qcheckin.ui.BackUpScreen
+import com.qzwx.qcheckin.ui.CalendarScreen
+import com.qzwx.qcheckin.ui.CheckInScreen
+import com.qzwx.qcheckin.ui.HistoryScreen
+import com.qzwx.qcheckin.viewmodel.CheckInViewModel
 
 @RequiresApi(Build.VERSION_CODES.S)
 @Composable
