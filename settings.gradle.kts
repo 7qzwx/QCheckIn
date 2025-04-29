@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "QCheckIn"
 include(":app")
+include(":core")
