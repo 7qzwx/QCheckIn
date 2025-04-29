@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "QCheckIn"
 include(":app")
 include(":core")
+include(":feature_qcheckin")
