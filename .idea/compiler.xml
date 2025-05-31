@@ -3,6 +3,8 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
       <module name="QCheckIn.app" target="21" />
+      <module name="QCheckIn.core" target="21" />
+      <module name="QCheckIn.qcheckin" target="21" />
     </bytecodeTargetLevel>
   </component>
 </project>

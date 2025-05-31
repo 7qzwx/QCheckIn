@@ -8,8 +8,8 @@ pluginManagement {
             }
         }
         mavenCentral()
-        gradlePluginPortal()
-        maven { url = uri("https://jitpack.io") }
+        maven("https://jitpack.io")
+
     }
 }
 dependencyResolutionManagement {
@@ -17,10 +17,10 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven { url = uri("https://jitpack.io") }
+        maven("https://jitpack.io")
+        maven { url = uri("https://repo1.maven.org/maven2/") }
     }
 }
 
-rootProject.name = "QCheckIn"
-include(":core")
+rootProject.name = "Q签到系统"
 include(":qcheckin")
