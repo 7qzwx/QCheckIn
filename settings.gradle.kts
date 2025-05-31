@@ -23,4 +23,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Q签到系统"
-include(":qcheckin")
+include(":QCheckin")
